@@ -25,7 +25,7 @@
     lsp = {
       formatOnSave = true;
       lspkind.enable = false;
-      lightbulb.enable = true;
+      lightbulb.enable = false;
       lspsaga.enable = false;
       trouble.enable = false;
       lspSignature.enable = true;
