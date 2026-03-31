@@ -23,6 +23,7 @@
     };
 
     lsp = {
+      enable = true;
       formatOnSave = true;
       lspkind.enable = false;
       lightbulb.enable = false;
@@ -99,7 +100,6 @@
 
     # and more options as you see fit...
     languages = {
-      enableLSP = true;
       enableFormat = true;
       enableTreesitter = true;
       enableExtraDiagnostics = true;
