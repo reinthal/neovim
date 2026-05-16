@@ -24,7 +24,10 @@
 
     autopairs.nvim-autopairs.enable = true;
 
-    autocomplete.blink-cmp.enable = true;
+    autocomplete.blink-cmp = {
+      enable = true;
+      setupOpts.signature.enabled = true;
+    };
 
     lsp = {
       enable = true;
@@ -33,7 +36,7 @@
       lightbulb.enable = false;
       lspsaga.enable = false;
       trouble.enable = false;
-      lspSignature.enable = true;
+      lspSignature.enable = false;
       otter-nvim.enable = true;
       nvim-docs-view.enable = true;
     };
