@@ -22,6 +22,10 @@
       };
     };
 
+    autopairs.nvim-autopairs.enable = true;
+
+    autocomplete.blink-cmp.enable = true;
+
     lsp = {
       enable = true;
       formatOnSave = true;
